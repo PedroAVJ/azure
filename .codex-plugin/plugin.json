@@ -1,6 +1,6 @@
 {
   "name": "azure",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
   "author": {
     "name": "PedroAVJ",
@@ -18,11 +18,11 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Microsoft Azure",
+    "displayName": "Azure",
     "shortDescription": "Azure CLI and Azure DevOps access",
     "longDescription": "Use the Azure CLI as the general interaction surface for Microsoft Azure resources and Azure DevOps. Discover the live subscription, tenant, organization, project, and repository before acting; keep commands explicitly scoped; and follow the user's request and each repository's own workflow instead of imposing a merge, testing, review, or release lifecycle.",
     "developerName": "PedroAVJ",
-    "category": "Cloud",
+    "category": "Developer Tools",
     "capabilities": [
       "Interactive",
       "Read",

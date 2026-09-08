@@ -1,6 +1,7 @@
 {
   "name": "azure",
-  "version": "0.1.5",
+  "displayName": "Azure",
+  "version": "0.1.6",
   "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
   "author": {
     "name": "PedroAVJ",

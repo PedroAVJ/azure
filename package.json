@@ -1,6 +1,6 @@
 {
   "name": "@pedroavj/azure",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
   "license": "MIT",

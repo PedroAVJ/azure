@@ -3,7 +3,7 @@ name: azure
 description: Work with Microsoft Azure and Azure DevOps through the Azure CLI. Use for any Azure task, including subscriptions, resources, logs, App Service, Azure SQL, pipelines, repositories, pull requests, or organization and project discovery. This skill provides platform access and scoping, not a prescribed testing, review, merge, deployment, or release workflow.
 ---
 
-# Microsoft Azure
+# Azure
 
 Use the installed `az` CLI as the general Azure interface. It covers Azure
 Resource Manager and, through the installed `azure-devops` extension, Azure

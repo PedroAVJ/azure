@@ -1,4 +1,4 @@
 interface:
-  display_name: "Microsoft Azure"
+  display_name: "Azure"
   short_description: "Use Azure and Azure DevOps through az"
   default_prompt: "Use $azure to work with this Microsoft Azure or Azure DevOps surface."

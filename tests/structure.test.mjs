@@ -8,7 +8,7 @@ import test from "node:test";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const expected = {
   "name": "azure",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "url": "https://github.com/PedroAVJ/azure",
   "dependencies": []
 };

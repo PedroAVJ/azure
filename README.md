@@ -1,4 +1,4 @@
-# Microsoft Azure
+# Azure
 
 Microsoft Azure and Azure DevOps through the installed `az` CLI.
 
