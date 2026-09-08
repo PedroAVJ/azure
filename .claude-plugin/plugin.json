@@ -1,0 +1,20 @@
+{
+  "name": "azure",
+  "version": "0.1.5",
+  "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/azure",
+  "repository": "https://github.com/PedroAVJ/azure",
+  "license": "MIT",
+  "keywords": [
+    "azure",
+    "microsoft-azure",
+    "azure-cli",
+    "azure-devops",
+    "cloud"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,8 @@
+{
+  "devops": {
+    "authority": "https://login.microsoftonline.com/organizations",
+    "config_dir": "~/.azure-devops-personal",
+    "extension_dir": "~/.azure/cliextensions",
+    "username": "you@example.com"
+  }
+}

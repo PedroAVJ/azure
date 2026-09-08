@@ -1,0 +1,30 @@
+#!/bin/zsh
+
+set -eu
+
+script_dir="${0:A:h}"
+python_bin="${AZURE_CLI_PYTHON:-}"
+
+if [[ -z "$python_bin" ]]; then
+  for candidate in \
+    /opt/homebrew/opt/azure-cli/libexec/bin/python \
+    /usr/local/opt/azure-cli/libexec/bin/python
+  do
+    if [[ -x "$candidate" ]]; then
+      python_bin="$candidate"
+      break
+    fi
+  done
+fi
+
+if [[ -z "$python_bin" ]]; then
+  python_bin="$(command -v python3 || true)"
+fi
+
+if [[ -z "$python_bin" ]]; then
+  print -u2 "Azure CLI's Python runtime was not found."
+  exit 127
+fi
+
+export PYTHONDONTWRITEBYTECODE=1
+exec "$python_bin" "$script_dir/az-devops.py" "$@"

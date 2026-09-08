@@ -1,0 +1,18 @@
+#!/bin/zsh
+
+set -eu
+
+az_cli="${AZURE_CLI_BIN:-}"
+if [[ -z "$az_cli" ]]; then
+  az_cli="$(command -v az || true)"
+fi
+
+if [[ -z "$az_cli" ]]; then
+  print -u2 "Azure CLI was not found on PATH."
+  exit 127
+fi
+
+export AZURE_CONFIG_DIR="${AZURE_WORK_CONFIG_DIR:-$HOME/.azure}"
+export AZURE_EXTENSION_DIR="${AZURE_WORK_EXTENSION_DIR:-$HOME/.azure/cliextensions}"
+
+exec "$az_cli" "$@"
