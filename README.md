@@ -107,9 +107,9 @@ protocol output in agent context, logs, files, or shell variables.
 ## Install
 
 ```bash
-claude plugin install azure@package-manager
+claude plugin install azure@near
 ```
 
 ```bash
-codex plugin add azure@package-manager
+codex plugin add azure@near
 ```
